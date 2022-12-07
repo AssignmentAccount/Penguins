@@ -4,7 +4,7 @@ This repository contains all the contents of the work done for the penguins assi
 
 The organisation of the data is as follows:
 
- - src : contains the source code of the assignment. This is limited to the scripts and markdowns
+ - src : Contains the source code of the assignment. This is limited to the scripts and markdowns
  - functions : Countains the source code for the functions which are accessed and used within the scripts and markdowns
  - raw_data : Contains the raw data used analysed by the scripts
  - clean_data : Contains the cleaned version of the raw data after undergoing the cleaning process

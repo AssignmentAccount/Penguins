@@ -1,6 +1,6 @@
 # Penguins Assignment
 
-This repository contains all the contents of the work done for the penguins assignment by student 1349247. 
+This repository contains all the contents of the work done for the penguins assignment by candidate 1054581. 
 
 The organisation of the data is as follows:
 

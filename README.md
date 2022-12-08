@@ -14,7 +14,7 @@ The organisation of the data is as follows:
  
 The code is attempted to be written in a way that means it should not require any commenting. Naming of files and ensuring single responsibility is used in order to aid this.
 
-The order of process should be followed carefully. It is as follows. 
+The order of process should be followed carefully and please set your working directory to the base of this repository when attempting to replicate the code. penguins/ should be the WD. It is as follows. 
 
 1. The raw data was cleaned using dataCleaning.R
 2. The clean data was filtered using filtering.R

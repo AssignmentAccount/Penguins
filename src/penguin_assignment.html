@@ -11,7 +11,7 @@
 
 <meta name="author" content="Candidate 1054581" />
 
-<meta name="date" content="2022-12-08" />
+<meta name="date" content="2022-12-09" />
 
 <title>penguin assignment</title>
 
@@ -365,7 +365,7 @@ pre code {
 
 <h1 class="title toc-ignore">penguin assignment</h1>
 <h4 class="author">Candidate 1054581</h4>
-<h4 class="date">2022-12-08</h4>
+<h4 class="date">2022-12-09</h4>
 
 </div>
 
@@ -508,6 +508,54 @@ this repository.</p>
 <h3>Question 5</h3>
 <div id="reviewing-someone-elses-work" class="section level4">
 <h4>Reviewing someone elses work</h4>
+<p>Firstly, the pipeline of their code was kept within a single document
+with all the other components of the assignment. The code is very brief
+and mostly self-explanatory. Since it is kept in this fashion, the
+pipeline is essentially outlined by the order of events. Comments are
+also added to give context which are helpful but not necessary for me to
+understand the code. For a beginner or non-coding individual, these
+comments are very useful, however.</p>
+<p>I ran the code with a few minor issues, a result of getting the code
+to cooperate on my workstation. Once it cooperated, the code worked, and
+a graph was produced.</p>
+<p>I personally dislike that the code is kept within a single R script.
+This means that it is difficult to decipher what content is responsible
+for what products. The intuitiveness of the process is therefore lower.
+A better and more reproducible method would be to functionally program
+the elements and have them saved in their own function scripts. These
+can then be sourced into specific R scripts that clean, process and plot
+the data. Splitting it up in this way not only makes it more
+understandable as to what goes where and why, but it also increases the
+ability of the code to be troubleshooted and edited. Clarification of
+where exactly the working directory is expected to be set would help
+keep things reproducible as well.</p>
+<p>Since the code is not functionally programmed, altering the code
+would require me to rewrite a large portion of the code already written.
+Since the analysis was so simple, it is easy to alter. However, the fact
+that there is little adherence to the single responsibility principle
+means that it would become too chaotic and difficult to both understand
+and reproduce. Keeping things well divided solves this issue and would
+allow the code to be very accessible to alterations.</p>
+</div>
+<div id="reflecting-on-my-own-work" class="section level4">
+<h4>Reflecting on my own work</h4>
+<p>My peer commented that I had produced too many scripts and function
+files and that I should not expect the users of the repo to read my
+readme to follow the steps of the scripts correctly. I personally
+disagree with this. The instructions are there for those who don’t have
+much experience with the code space or work, and so require more
+instruction. I believe that if someone more experienced is using the
+code, they will intuitively know the order in which the scripts are to
+be executed. I do however agree that the natural next step would be the
+compilation of the source code through a dedicated pipeline, resulting
+in a final compiled result. However, this is not something I can
+confidently do at this stage. Further sub-directories in the source
+directory may have aided this issue.</p>
+<p>I learned that it’s difficult to write code for others when you don’t
+know exactly who your audience will be. If they vary wildly in
+capabilities, making it accessible to many people becomes very
+difficult. In general I found it no different than writing code just for
+myself however.</p>
 </div>
 </div>
 
